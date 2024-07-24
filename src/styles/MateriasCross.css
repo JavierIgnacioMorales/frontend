@@ -1,0 +1,21 @@
+.card-materia{
+    border: 1px solid grey;
+    /* max-width: 160px; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px;
+    gap: 5px;
+    margin: 0 15px 15px 15px;
+    border-radius: 5px;
+}
+.card-materia-title{
+    margin: 5px;
+    text-align: center;
+}
+.card-materia-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
